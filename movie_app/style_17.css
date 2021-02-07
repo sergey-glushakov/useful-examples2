@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
