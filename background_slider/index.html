@@ -3,11 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name Template</title>
+    <title>Background Slider</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+        integrity="sha512-vZWT27aGmde93huNyIV/K7YsydxaafHLynlJa/4aPy28/R1a/IxewUH4MWo7As5I33hpQ7JS24kwqy/ciIFgvg=="
+        crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style_18.css">
 </head>
 <body>
+    <div class='slider-container'>
+        <div class="slide active" style="background-image: url('https://placeimg.com/640/480/nature');">1</div>
+        <div class="slide active" style="background-image: url('https://placeimg.com/640/480/people');">2</div>
+        <div class="slide active" style="background-image: url('https://placeimg.com/640/480/tech');">3</div>
+        <div class="slide active" style="background-image: url('https://placeimg.com/640/480/animals');">4</div>
 
+        <button class='arrow left-arrow' id='left'>
+            <i class='fas fas-arrow-left'></i>
+        </button>
+
+        <button class='arrow right-arrow' id='right'>
+            <i class='fas fas-arrow-right'></i>
+        </button>
+    </div>
     <script src="script_18.js"></script>
 </body>
 </html>
