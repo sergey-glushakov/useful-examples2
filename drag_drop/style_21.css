@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: steelblue;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    background: white;
+    border: 3px solid #000000;
+}
+
+.fill{
+    background-image: url("https://source.unsplash.com/random/150x150");
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.hold {
+    border: solid 5px #ccc;
+}
+
+.hovered{
+    background-color: #333333;
+    border-color: white;
+    border-style: dashed;
+}
+
+@media (max-width: 800px) {
+    body{
+        flex-direction: column;
+    }
+}
